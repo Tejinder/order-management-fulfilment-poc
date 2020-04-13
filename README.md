@@ -16,6 +16,9 @@ Download APACHE KAFKA from https://kafka.apache.org/download and extract the zip
 4. Open a new command prompt and create 2 topics with name order-topic and order-status-topic, that has only one partition & one replica.
 
 C:\kafka_2.12-0.10.2.1>.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic order-topic
+
+
+
 C:\kafka_2.12-0.10.2.1>.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic order-status-topic
 
 And use the below command to see all the topics created :
